@@ -1,2 +1,2 @@
 # PythonGroup06
-This is the github repository for Group 06.
+Tarea 1 de Fundamentos de Python - Grupo 6
