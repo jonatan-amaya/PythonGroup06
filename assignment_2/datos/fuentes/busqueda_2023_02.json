@@ -1,0 +1,68 @@
+{
+  "mes": "2023-02",
+  "resultados_totales": 9,
+  "consultado_utc": "2026-10-03T13:44:20.611896+00:00",
+  "metodo": "Selenium: WebDriverWait y búsqueda dentro de article",
+  "paginas": [
+    {
+      "url": "https://www.gob.pe/busquedas?contenido%5B%5D=normas&institucion%5B%5D=pcm&term=estado+de+emergencia+precipitaciones&sort_by=recent&desde=01-02-2023&hasta=28-02-2023",
+      "extraidos": 9
+    }
+  ],
+  "resultados": [
+    {
+      "numero": "Decreto Supremo N.° 027-2023-PCM",
+      "fecha_texto": "24 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en la provincia de Padre Abad del departamento de Ucayali",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569225-027-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 025-2023-PCM",
+      "fecha_texto": "18 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en la provincia de Condorcanqui y en los distritos de Imaza y Aramango de la provincia de Bagua, del departamento de Amazonas, y en el departament ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569222-025-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 024-2023-PCM",
+      "fecha_texto": "17 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en los distritos de Allauca, Cacra, Catahuasi, Huangascar, Lincha, Putinza, Quinches y Viñac de la provincia de Yauyos del departamento de Lima, p ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569220-024-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 023-2023-PCM",
+      "fecha_texto": "16 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en las provincias de Putumayo y Mariscal Ramón Castilla del departamento de Loreto",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569218-023-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 022-2023-PCM",
+      "fecha_texto": "13 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en el departamento de Lima, en la Provincia Constitucional del Callao, y en algunas carreteras de la Red Vial Nacional",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569214-022-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 021-2023-PCM",
+      "fecha_texto": "9 de febrero de 2023",
+      "titulo_lista": "Prórroga del Estado de Emergencia en distritos de las provincias de Huanta y La Mar del departamento de Ayacucho; de las provincias de Tayacaja y Churcampa del departamento de Huancavelica; de la pro ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3918804-021-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 020-2023-PCM",
+      "fecha_texto": "9 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en los distritos de Puerto Inca, Tournavista, Yuyapichis y Codo del Pozuzo de la provincia de Puerto Inca del departamento de Huánuco, e ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3918758-020-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 019-2023-PCM",
+      "fecha_texto": "6 de febrero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en el distrito de Mariano Nicolás Valcárcel de la provincia de Camaná del departamento de Arequipa, por impacto de daños ante intensas prec ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3900649-019-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 018-2023-PCM",
+      "fecha_texto": "4 de febrero de 2023",
+      "titulo_lista": "Declaran el Estado de Emergencia en los departamentos de Madre de Dios, Cusco, Puno, Apurímac, Arequipa, Moquegua y Tacna, y dictan otras disposiciones",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3900644-018-2023-pcm"
+    }
+  ]
+}

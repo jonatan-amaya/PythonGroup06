@@ -1,0 +1,10 @@
+pandas>=2.2,<4
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+lxml>=5,<7
+selenium>=4.20,<5
+plotly>=5.22,<8
+ipykernel>=6,<8
+nbformat>=5.10,<6
+# Para regenerar PNG de los gráficos:
+kaleido>=1,<2

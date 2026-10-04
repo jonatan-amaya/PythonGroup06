@@ -1,0 +1,80 @@
+{
+  "mes": "2023-04",
+  "resultados_totales": 11,
+  "consultado_utc": "2026-10-03T13:44:29.894943+00:00",
+  "metodo": "Selenium: WebDriverWait y búsqueda dentro de article",
+  "paginas": [
+    {
+      "url": "https://www.gob.pe/busquedas?contenido%5B%5D=normas&institucion%5B%5D=pcm&term=estado+de+emergencia+precipitaciones&sort_by=recent&desde=01-04-2023&hasta=30-04-2023",
+      "extraidos": 11
+    }
+  ],
+  "resultados": [
+    {
+      "numero": "Decreto Supremo N.° 056-2023-PCM",
+      "fecha_texto": "26 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en los distritos de Llauta, Otoca y Saisa de la provincia de Lucanas y en el distrito de San Miguel de la provincia de La Mar del departamento de A ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4221212-056-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 055-2023-PCM",
+      "fecha_texto": "26 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en la provincia de Zarumilla del departamento de Tumbes; en distritos de las provincias de Sullana, Ayabaca y Huancabamba del departamento de Piura ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4221203-055-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 053-2023-PCM",
+      "fecha_texto": "19 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en el departamento de La Libertad",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4167553-053-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 052-2023-PCM",
+      "fecha_texto": "15 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en algunos distritos de las provincias de Bellavista, San Martín, El Dorado, Lamas y Moyobamba del departamento de San Martín, por impacto de daños ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5580735-052-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 051-2023-PCM",
+      "fecha_texto": "14 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en algunas carreteras de la Red Vial Nacional",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4228066-051-2023-pcm"
+    },
+    {
+      "numero": "Resolución N.° 1820-2023-TCE-S4",
+      "fecha_texto": "13 de abril de 2023",
+      "titulo_lista": "Procedimiento administrativo sancionador generado contra la señora ROSA MARILUZ POCOHUANCA CCAMA por su supuesta responsabilidad al haber incumplido injustificadamente con su obligación de perfeccionar el contrato, d ...",
+      "enlace": "https://www.gob.pe/institucion/oece/normas-legales/4157393-1820-2023-tce-s4"
+    },
+    {
+      "numero": "Decreto Supremo N.° 050-2023-PCM",
+      "fecha_texto": "13 de abril de 2023",
+      "titulo_lista": "Prorrogar el Estado de Emergencia por el término de sesenta (60) días calendario, a partir del 19 de abril de 2023, declarado en las provincias de Putumayo y Mariscal Ramón Castilla del departamento ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5580288-050-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 049-2023-PCM",
+      "fecha_texto": "8 de abril de 2023",
+      "titulo_lista": "Prórroga del Estado de Emergencia en distritos de las provincias de Huanta y La Mar del departamento de Ayacucho; de las provincias de Tayacaja y Churcampa del departamento de Huancavelica; de la pro ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4136826-049-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 048-2023-PCM",
+      "fecha_texto": "8 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en los distritos de Puerto Inca, Tournavista, Yuyapichis y Codo del Pozuzo de la provincia de Puerto Inca del departamento de Huánuco, e ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4136817-048-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 047-2023-PCM",
+      "fecha_texto": "5 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en el departamento de Puno",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4136812-047-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 046-2023-PCM",
+      "fecha_texto": "5 de abril de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en los distritos de Tambopata, Inambari, Las Piedras y Laberinto de la provincia de Tambopata y en los distritos de Madre de Dios y Huepetuhe de la ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4136720-046-2023-pcm"
+    }
+  ]
+}

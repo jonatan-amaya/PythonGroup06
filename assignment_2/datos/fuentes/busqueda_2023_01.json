@@ -1,0 +1,80 @@
+{
+  "mes": "2023-01",
+  "resultados_totales": 11,
+  "consultado_utc": "2026-10-03T13:44:16.451356+00:00",
+  "metodo": "Selenium: WebDriverWait y búsqueda dentro de article",
+  "paginas": [
+    {
+      "url": "https://www.gob.pe/busquedas?contenido%5B%5D=normas&institucion%5B%5D=pcm&term=estado+de+emergencia+precipitaciones&sort_by=recent&desde=01-01-2023&hasta=31-01-2023",
+      "extraidos": 11
+    }
+  ],
+  "resultados": [
+    {
+      "numero": "Decreto Supremo N.° 017-2023-PCM",
+      "fecha_texto": "31 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de las provincias del departamento de Puno, por peligro inminente ante déficit hídrico",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3900619-017-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 016-2023-PCM",
+      "fecha_texto": "29 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en la provincia de Padre Abad del departamento de Ucayali",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3899625-016-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 014-2023-PCM",
+      "fecha_texto": "26 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el estado de emergencia en la localidad de Cunia del distrito de Chirinos de la provincia de San Ignacio del departamento de Cajamarca por impacto de daños a consecuencia ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3899569-014-2023-pcm"
+    },
+    {
+      "numero": "Resolución N.° 0209-2023-TCE-S1",
+      "fecha_texto": "19 de enero de 2023",
+      "titulo_lista": "Recurso de apelación interpuesto por la empresa Keypower Perú S.A., en el marco de la Adjudicación Simplificada N° 18-2022-GERESA/LL (Tercera Convocatoria), convocada por el Gobierno Regional de La Libertad – Direcci ...",
+      "enlace": "https://www.gob.pe/institucion/oece/normas-legales/3850417-0209-2023-tce-s1"
+    },
+    {
+      "numero": "Decreto Supremo N.° 010-2023-PCM",
+      "fecha_texto": "19 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en los departamentos de Amazonas La Libertad y Tacna",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569205-010-2023-pcm"
+    },
+    {
+      "numero": "Directiva N.° 005-2015-PCM/SGRD",
+      "fecha_texto": "17 de enero de 2023",
+      "titulo_lista": "\"Directiva para la ejecución del ejercicio de simulación por el Fenómeno El Niño, en los departamentos declarados en Estado de Emergencia\". (Resolución Ministerial N° 248-2015-PCM)",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/8031151-005-2015-pcm-sgrd"
+    },
+    {
+      "numero": "Directiva N.° 004-2015-PCM/SGRD",
+      "fecha_texto": "17 de enero de 2023",
+      "titulo_lista": "\"Directiva para la ejecución de simulacro nocturno por el Fenómeno El Niño, en los departamentos declarados en Estado de Emergencia\". (Resolución Ministerial N° 248-2015-PCM)",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/8031150-004-2015-pcm-sgrd"
+    },
+    {
+      "numero": "Decreto Supremo N.° 009-2023-PCM",
+      "fecha_texto": "14 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en los departamentos de Puno Cusco Lima en la Provincia Constitucional del Callao en la provincia de Andahuaylas del departamento de Apurímac en la ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3888263-009-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 008-2023-PCM",
+      "fecha_texto": "13 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas, Áncash, Arequipa, Ayacucho, Cajamarca, Huancavelica, Huánuco, Junín, La ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3888261-008-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 007-2023-PCM",
+      "fecha_texto": "13 de enero de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en algunos distritos de varias provincias de los departamentos de Amazonas, Áncash, Cusco, Huánuco, La Libertad, San Martín y Ucayali, por impacto ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/3888259-007-2023-pcm"
+    },
+    {
+      "numero": "Resolución N.° 0090-2023-TCE-S1",
+      "fecha_texto": "11 de enero de 2023",
+      "titulo_lista": ". – ELECTRO NOR OESTE S.A., para la contratación del \"Servicio de actividades técnico comerciales y atención de pequeñas emergencias de distribución en el ámbito de las localidades dentro de la zona ...",
+      "enlace": "https://www.gob.pe/institucion/oece/normas-legales/3837479-0090-2023-tce-s1"
+    }
+  ]
+}

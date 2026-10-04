@@ -1,0 +1,98 @@
+{
+  "mes": "2023-03",
+  "resultados_totales": 14,
+  "consultado_utc": "2026-10-03T13:44:25.233884+00:00",
+  "metodo": "Selenium: WebDriverWait y búsqueda dentro de article",
+  "paginas": [
+    {
+      "url": "https://www.gob.pe/busquedas?contenido%5B%5D=normas&institucion%5B%5D=pcm&term=estado+de+emergencia+precipitaciones&sort_by=recent&desde=01-03-2023&hasta=31-03-2023",
+      "extraidos": 14
+    }
+  ],
+  "resultados": [
+    {
+      "numero": "Resolución N.° 1665-2023-TCE-S2",
+      "fecha_texto": "31 de marzo de 2023",
+      "titulo_lista": "Procedimiento administrativo sancionador generado contra la empresa MEDICAL WORLD S.A.C., por su supuesta responsabilidad al haber contratado con el Estado estando impedido para ello, en el marco del Contrato de Terc ...",
+      "enlace": "https://www.gob.pe/institucion/oece/normas-legales/4105780-1665-2023-tce-s2"
+    },
+    {
+      "numero": "Decreto Supremo N.° 044-2023-PCM",
+      "fecha_texto": "29 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en algunos distritos de las provincias de Leoncio Prado y Marañón del departamento de Huánuco; y, en algunos distritos de las provincias de Nasca, ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4116711-044-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 043-2023-PCM",
+      "fecha_texto": "26 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia Nacional, por desastre de gran magnitud, a consecuencia de intensas precipitaciones pluviales en los departamentos de Lambayeque, ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4116672-043-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 0039-2023-PCM",
+      "fecha_texto": "18 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas, Ayacucho, Pasco y Ucayali, por impacto de daños a consecuencia de inten ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569229-0039-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 038-2023-PCM",
+      "fecha_texto": "18 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Áncash, Huancavelica, Ica y Lima, por impacto de daños a consecuencia de intensas ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4094910-038-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 037-2023-PCM",
+      "fecha_texto": "16 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en el departamento de La Libertad",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4026068-037-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 036-2023-PCM",
+      "fecha_texto": "15 de marzo de 2023",
+      "titulo_lista": "Declaratoria de Estado de Emergencia",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4026056-036-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 035-2023-PCM",
+      "fecha_texto": "12 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Áncash, Apurímac, Arequipa, Ayacucho, Cusco, Huancavelica, Huánuco, Ica, Junín, L ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569228-035-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 034-2023-PCM",
+      "fecha_texto": "12 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Cajamarca, La Libertad, Lambayeque y Piura, por impacto de daños ante intensas pr ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4032669-034-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 032-2023-PCM",
+      "fecha_texto": "10 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en algunas carreteras de la Red Vial Nacional",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4032705-032-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 031-2023-PCM",
+      "fecha_texto": "10 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia declarado en la provincia de Ica del departamento de Ica",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4032626-031-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 030-2023-PCM",
+      "fecha_texto": "10 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en algunos distritos de varias provincias del departamento de Arequipa, por impacto de daños ante intensas precipitaciones pluviales",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4032564-030-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 029-2023-PCM",
+      "fecha_texto": "3 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Áncash, Cajamarca, La Libertad, Lambayeque, Lima, Piura y Tumbes, por peligro in ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569227-029-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 028-2023-PCM",
+      "fecha_texto": "1 de marzo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de las provincias del departamento de Ayacucho, por impacto de daños ante intensas precipitaciones pluviales",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569226-028-2023-pcm"
+    }
+  ]
+}

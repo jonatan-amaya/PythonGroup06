@@ -1,0 +1,62 @@
+{
+  "mes": "2023-05",
+  "resultados_totales": 8,
+  "consultado_utc": "2026-10-03T13:44:34.061442+00:00",
+  "metodo": "Selenium: WebDriverWait y búsqueda dentro de article",
+  "paginas": [
+    {
+      "url": "https://www.gob.pe/busquedas?contenido%5B%5D=normas&institucion%5B%5D=pcm&term=estado+de+emergencia+precipitaciones&sort_by=recent&desde=01-05-2023&hasta=31-05-2023",
+      "extraidos": 8
+    }
+  ],
+  "resultados": [
+    {
+      "numero": "Decreto Supremo N.° 067-2023-PCM",
+      "fecha_texto": "27 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Apurímac, Arequipa, Ayacucho, Cusco, Huancavelica, Junín, Pasco, Puno y Tacna, p ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569233-067-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 065-2023-PCM",
+      "fecha_texto": "24 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia Nacional, por desastre de gran magnitud, a consecuencia de intensas precipitaciones pluviales en varios distritos de las provinci ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569232-065-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 063-2023-PCM",
+      "fecha_texto": "18 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en el departamento de La Libertad",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569149-063-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 061-2023-PCM",
+      "fecha_texto": "18 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de algunas provincias del departamento de Áncash, por impacto de daños a consecuencia de intensas precipitaciones",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569144-061-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 062-2023-PCM",
+      "fecha_texto": "17 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas y Ayacucho, por impacto de daños a consecuencia de intensas pre ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569160-062-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 060-2023-PCM",
+      "fecha_texto": "11 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que prorroga el Estado de Emergencia en el Corredor Vial Sur Apurímac-Cusco-Arequipa y en el Corredor Vial Interoceánica Sur",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569139-060-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 059-2023-PCM",
+      "fecha_texto": "10 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Áncash, Cajamarca, La Libertad y Lima, por impacto de daños a consecuencia de int ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/5569141-059-2023-pcm"
+    },
+    {
+      "numero": "Decreto Supremo N.° 058-2023-PCM",
+      "fecha_texto": "3 de mayo de 2023",
+      "titulo_lista": "Decreto Supremo que declara el Estado de Emergencia en algunos distritos de las provincias de Bellavista, Huallaga, Lamas, Picota, San Martín y Tocache del departamento de San Martín, por impacto de ...",
+      "enlace": "https://www.gob.pe/institucion/pcm/normas-legales/4221238-058-2023-pcm"
+    }
+  ]
+}
