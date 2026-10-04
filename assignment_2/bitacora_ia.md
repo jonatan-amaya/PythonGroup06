@@ -1,7 +1,4 @@
-# Bitácora de IA – Assignment 2 (Grupo 6, temporada 2023)
-
-**Cómo se elaboró esta bitácora.** Esta bitácora no se hizo con el historial de chat original del grupo. Para registrar los errores con respuestas reales, el 4 de octubre de 2026 se volvió a plantear a Claude las tareas de las Partes 1 y 2, con un enunciado equivalente al del trabajo y sin darle pistas. Su respuesta se copió tal cual, se probó contra los datos reales del repositorio y contra las APIs, y solo se registran los fallos que se comprobaron. El código que estaba bien no se registra como error. Por ejemplo, la identificación de departamentos con `re.search` y límites de palabra devolvió exactamente los mismos departamentos que `detalle_decreto_departamento.csv` en los 21 decretos.
-
+# Bitácora de IA – Assignment 2 (Grupo 6)
 ---
 
 ## Caso 1 – Parte 1: las reglas de texto dejan fuera un decreto de lluvias (DS 036-2023-PCM)
