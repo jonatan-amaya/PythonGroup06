@@ -40,7 +40,15 @@ ETIQUETAS = {
 # que alguien mueve un filtro.
 @st.cache_data
 def cargar():
-    return pd.read_csv(DATOS, dtype={"ubigeo": str}, encoding="utf-8-sig")
+    datos = pd.read_csv(DATOS, dtype={"ubigeo": str}, encoding="utf-8-sig")
+    # Validaciones mínimas: si el CSV llega dañado, mejor fallar que publicar datos erróneos.
+    if datos.isna().any().any():
+        raise ValueError("Hay datos faltantes en el CSV. Revisar antes de publicar.")
+    if not datos["ubigeo"].str.fullmatch(r"\d{2}").all():
+        raise ValueError("El ubigeo debe conservar dos dígitos, por ejemplo '01'.")
+    if datos["ubigeo"].duplicated().any():
+        raise ValueError("Debe existir una sola fila por ubigeo.")
+    return datos
 
 
 datos = cargar()
@@ -103,15 +111,24 @@ st.divider()
 
 # ---------------------------------------------------------------------- graficos
 alto = max(350, 24 * len(filtrado) + 80)
+# La escala de color se fija con el país completo: así un mismo tono significa
+# la misma cantidad de lluvia aunque cambien los filtros.
+rango_color = (0, float(datos[var_lluvia].max()))
 izq, der = st.columns(2)
 
 with izq:
-    st.subheader("Lima y Ancash lideran emergencias con poca lluvia(correlacion-0.19)")
+    # El título se calcula con la vista filtrada, en lugar de quedar fijo.
+    max_decl = int(filtrado["declaratorias"].max())
+    lideres = filtrado.loc[filtrado["declaratorias"].eq(max_decl), "departamento"].tolist()
+    st.subheader(f"{lideres[0]} encabeza la vista con {max_decl} declaratorias"
+                 if len(lideres) == 1
+                 else f"{', '.join(lideres)} comparten el máximo: {max_decl} declaratorias")
     st.caption(f"El color indica la {etiqueta_lluvia.lower()}: más oscuro, más lluvia.")
     por_depto = filtrado.sort_values(["declaratorias", var_lluvia])
     fig = px.bar(
         por_depto, x="declaratorias", y="departamento", orientation="h",
-        color=var_lluvia, color_continuous_scale=AZULES, text="declaratorias",
+        color=var_lluvia, color_continuous_scale=AZULES, range_color=rango_color,
+        text="declaratorias",
         hover_data={"capital": True, "lluvia_total_mm": True, "dias_lluvia_fuerte": True,
                     "prorrogas": True},
         labels={**ETIQUETAS, "departamento": ""},
@@ -155,9 +172,12 @@ with der:
             showarrow=False, yshift=14, font=dict(size=12),
         )
     fig.update_layout(height=alto, margin=dict(l=0, r=10, t=10, b=0))
-    fig.update_xaxes(automargin=True)
-    fig.update_yaxes(automargin=True, dtick=1)
+    # Ejes fijos con el país completo: al filtrar, los puntos no se "estiran".
+    fig.update_xaxes(automargin=True, range=[0, float(datos[var_lluvia].max()) * 1.05])
+    fig.update_yaxes(automargin=True, dtick=1,
+                     range=[-0.3, float(datos["declaratorias"].max()) + 0.8])
     st.plotly_chart(fig, width="stretch")
+    st.caption("Cada punto es un departamento. Este gráfico descriptivo no prueba causalidad.")
 
 # -------------------------------------------------------------------------- mapa
 st.subheader("Mapa: capitales departamentales")
@@ -167,7 +187,7 @@ mapa = filtrado.assign(tamano=filtrado["declaratorias"] + 1)  # +1 para que 0 se
 fig = px.scatter_map(
     mapa, lat="latitud", lon="longitud",
     size="tamano", size_max=30,
-    color=var_lluvia, color_continuous_scale=AZULES,
+    color=var_lluvia, color_continuous_scale=AZULES, range_color=rango_color,
     hover_name="departamento",
     hover_data={"capital": True, "declaratorias": True, "prorrogas": True,
                 "lluvia_total_mm": True, "dias_lluvia_fuerte": True,
@@ -208,9 +228,19 @@ st.dataframe(
 
 st.download_button(
     "Descargar datos filtrados (CSV)",
-    tabla.to_csv(index=False).encode("utf-8"),
+    # utf-8-sig: Excel abre bien las tildes (Áncash, Junín, Apurímac...).
+    tabla.to_csv(index=False).encode("utf-8-sig"),
     "lluvias_emergencias_filtrado.csv",
     "text/csv",
 )
+
+with st.expander("Fuentes y alcance de la comparación"):
+    st.write("Datos: dataset.csv del grupo 6, elaborado en el Assignment 2 con la API histórica "
+             "de Open-Meteo y los decretos de emergencia de la PCM. Temporada: enero–mayo de 2023.")
+    st.write("Cada fila es un departamento (o el Callao). La lluvia se mide solo en la capital "
+             "indicada en la tabla; para Lima se usa Huacho, no Lima Metropolitana.")
+    st.write("Las sumas cuentan menciones por departamento, no decretos únicos. No se mide la "
+             "población expuesta, el presupuesto ni la severidad de los daños, así que estos datos "
+             "no bastan para evaluar la calidad de la respuesta estatal.")
 
 st.caption(FUENTE)
