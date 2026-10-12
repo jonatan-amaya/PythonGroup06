@@ -5,13 +5,12 @@ Correr en local, desde la carpeta assignment_3/:
 """
 
 from pathlib import Path
-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
 # ---------------------------------------------------------------- configuracion
-st.set_page_config(page_title="Lluvias y emergencias 2023", page_icon="🌧️", layout="wide")
+st.set_page_config(page_title="Lluvias y Emergencias 2023", page_icon="🌧️", layout="wide")
 
 # La ruta se arma desde la ubicación de este archivo: Streamlit Cloud ejecuta la
 # app desde la raíz del repositorio, no desde assignment_3/.
