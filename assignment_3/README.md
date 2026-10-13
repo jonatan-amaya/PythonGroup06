@@ -2,7 +2,7 @@
 
 ## Parte 3 · Dashboard: ¿el Estado declara emergencia donde más llueve?
 
-**App pública:** https://REEMPLAZAR-CON-EL-ENLACE.streamlit.app
+**App pública: https://pythongroup06-assignment3.streamlit.app**
 
 Dashboard interactivo en Streamlit que compara, para los 25 departamentos del Perú (24 + Callao), las **declaratorias de emergencia por lluvias** con la **lluvia registrada en su capital** durante la temporada de lluvias del **1 de enero al 31 de mayo de 2023**.
 
